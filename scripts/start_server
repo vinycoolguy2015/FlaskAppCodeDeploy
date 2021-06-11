@@ -1,6 +1,7 @@
 #!/bin/bash
 cd /home/ec2-user/app
 pkill supervisord
+sleep 5
 source environment/bin/activate
 supervisord -c supervisord.conf
 
