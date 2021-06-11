@@ -6,7 +6,7 @@ files:
 file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
-  - location: scripts/delete_app
+   - location: scripts/delete_app
      timeout: 300
      runas: root
   AfterInstall:
